@@ -13,7 +13,9 @@ npm install --yes
 echo "Creating Production Build..."
 npm run build
 
+
+
 echo "PM2 Reload"
-pm2 reload mvdb_frontend
+pm2 reload mvdb
 
 echo "Deployment Finished!"
